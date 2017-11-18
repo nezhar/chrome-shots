@@ -1,0 +1,8 @@
+version: '2'
+services:
+  puppeteer:
+    build:
+      context: .
+    volumes:
+      - ./app:/app
+    shm_size: 1G
