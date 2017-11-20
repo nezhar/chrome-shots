@@ -49,7 +49,7 @@ const devices = require('./devices.js');
           let imageName = filenamify(url, {replacement: '_'}) + '.png';
 
           // Load page and create full page screenshot
-          await page.goto(url);
+          await page.goto(url, {waitUntil: 'networkidle2'});
           await page.screenshot({path: deviceDirectory + imageName, fullPage: true});
       }
     }
