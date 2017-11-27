@@ -8,7 +8,7 @@ The script is creating a puppeteer instance and goes trough each configured devi
 
 ### Configure devices and urls
 
-A preconfigured list of devices is available in the applications **devices.js**. This list may require an update as it was pulled from an older Chromium commit: https://gist.github.com/devinmancuso/0c94410cb14c83ddad6f
+A preconfigured list of devices is available in the applications **devices.js**. The list was extracted from the Chromium repository: https://cs.chromium.org/codesearch/f/chromium/src/third_party/WebKit/Source/devtools/front_end/emulated_devices/module.json
 
 In the **urls.js** is the list of pages that will be requested to create screenshots.
 
