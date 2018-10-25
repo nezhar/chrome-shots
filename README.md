@@ -22,4 +22,4 @@ This is required only once in order to create the Docker image.
 
 Must be run each time to generate all screenshots for the devices and urls. The container will be exited once the job is done.
 
-    sudo docker-compose run
+    sudo docker-compose run puppeteer
